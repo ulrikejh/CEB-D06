@@ -1,0 +1,38 @@
+/* For Tablet*/
+@media (max-width:1000px){
+    .item-section{
+        width: 48%;
+    }
+    .detail-left{
+        width: 100% !important;
+        clear: both ;
+        margin: 0 auto;
+    }
+    .main-image{
+        width: 100%;
+    }
+    .detail-comment .avatar-image{
+        width: 10%;
+    }
+    .column-comment .avatar-comment{
+        font-size: 14px;
+    }
+}
+/* For Smartphone*/
+@media (max-width:670px){
+    .item-section{
+        width: 100%;
+        display: block;
+    }
+    .detail-left{
+        width: 100% !important;
+        clear: both ;
+        margin: 0 auto;
+    }
+    .main-image{
+        width: 100%;
+    }
+    .detail-right{
+        width: 100%;
+    }
+}
