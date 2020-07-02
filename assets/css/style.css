@@ -40,6 +40,9 @@ header{
     width:100%;
     background-color:rgba(245, 246, 250, 1);
     border-bottom: 1px solid #192a56;
+    position: fixed;
+    top: 0;
+    z-index: 10
 }
 .container{
     max-width: 1170px;
